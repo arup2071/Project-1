@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --font-family: "Poppins", sans-serif;
+  --second-family: "PT Sans", sans-serif;
+  --primaryColor: #fc0;
+  --secondaryColor: #353535;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: var(--font-family);
+}
+
+.btn {
+  padding: 16px 45px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 180%;
+  border: none;
+}
+
+.btn span {
+  margin-left: 6px;
+}
+
+.btn.btn-primary {
+  color: #fff;
+  background-color: var(--primaryColor);
+}
+
+.btn.btn-outline {
+  padding: 16px 18px;
+  background-color: transparent;
+  border: 1px solid #000;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 180%;
+  color: var(--secondaryColor);
+}
+
+.btn.btn-sm {
+  padding: 10px 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 180%;
+  border-radius: 12px;
+}
+
+/* *Common Css ends */
+
+/* NAVBAR STARTS HERE */
+#myNavbar ul li a {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 200%;
+  color: #353535;
+  padding: 18px 22px 5px;
+}
+#myNavbar ul li a.active,
+#myNavbar ul li a:hover {
+  border-bottom: 1px solid #353535;
+}
+
+nav .navbar-toggler {
+  background-color: var(--secondaryColor);
+  color: white;
+  border-radius: 0;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  font-size: 25px;
+}
+
+/* NAVBAR ENDS HERE */
+
+/* BANNER STARTS */
+#banner {
+  padding: 60px 0 144px;
+}
+
+#banner h4 {
+  font-weight: 400;
+  font-size: 24px;
+  color: #353535;
+}
+#banner h1 {
+  font-weight: 700;
+  font-size: 64px;
+  color: #353535;
+  margin: 15px 0 25px;
+  font-family: var(--second-family);
+}
+#banner p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 180%;
+  color: #353535;
+  margin-bottom: 45px;
+}
+
+#banner .btn-primary {
+  margin-right: 40px;
+}
+#banner .socialLink {
+  margin-top: 66px;
+}
+#banner .socialLink span {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 180%;
+  color: var(--secondaryColor);
+  margin-right: 24px;
+}
+
+#banner .socialLink a {
+  width: 40px;
+  height: 40px;
+  background-color: #f4f3f3;
+  color: #000;
+  display: inline-block;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+  margin: 0 8px;
+}
+/* BANNER ENDS */
